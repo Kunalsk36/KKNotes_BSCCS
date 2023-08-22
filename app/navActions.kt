@@ -1,0 +1,6 @@
+object navActions {
+    fun act(){
+
+
+    }
+}

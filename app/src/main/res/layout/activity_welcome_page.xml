@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_drawable"
+    android:gravity="center"
+    tools:context=".WelcomePage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarThumbVertical="@android:color/transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/kk_logo"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:layout_gravity="center"
+                android:background="@drawable/kk_logo_shape" />
+
+            <ImageView
+                android:id="@+id/welcomeimage"
+                android:layout_width="310dp"
+                android:layout_height="285dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:contentDescription="welcomeimage"
+                android:src="@drawable/welcomeimage" />
+
+            <View
+                android:id="@+id/welcome"
+                android:layout_width="310dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/welcome_shape" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/signupBtn"
+                    android:layout_width="150dp"
+                    android:layout_height="61dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/roundstyle"
+                    android:onClick="SignUpClick"
+                    android:shadowColor="#000000"
+                    android:shadowDx="4.5"
+                    android:shadowDy="4.5"
+                    android:shadowRadius="1.6"
+                    android:text="@string/sign_up"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/loginBtn"
+                    android:layout_width="150dp"
+                    android:layout_height="61dp"
+                    android:background="@drawable/roundstyle"
+                    android:onClick="loginclick"
+                    android:shadowColor="#000000"
+                    android:shadowDx="4"
+                    android:shadowDy="4"
+                    android:shadowRadius="1.6"
+                    android:text="@string/log_in"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/madeByKK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/made_by_kunal_kavathekar"
+                android:textColor="#ECECEC"
+                tools:ignore="TextContrastCheck" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

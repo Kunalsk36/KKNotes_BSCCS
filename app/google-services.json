@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "751316860513",
+    "project_id": "kknotesbsccs",
+    "storage_bucket": "kknotesbsccs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751316860513:android:3154f5c5df4965e0c0f420",
+        "android_client_info": {
+          "package_name": "com.example.kknotesbsccs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751316860513-gdgq9dr5hmg8ei7nebrb3s1qtna4npg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAtlxvZCGpGbLIQO8Xbox9yKxixnJHSrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751316860513-gdgq9dr5hmg8ei7nebrb3s1qtna4npg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

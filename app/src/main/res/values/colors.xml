@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#0A549A</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#05C6B3</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="lightblack">#1B1B1B</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="toolbar_color">#0A549B</color>
+    <color name="profile_name_header">#FFFFFF</color>
+    <color name="email_name_header">#F3F3F3</color>
+    <color name="navigation_drawer">#49BDF6</color>
+    <color name="scrollablebg">#D3F1FF</color>
+    <color name="scrollablebgtitle">#62CDFF</color>
+    <color name="button_bgcolor">#97DEFF</color>
+    <color name="vectorLightBlack">#474646</color>
+    <color name="logInNowTextColor">#FE4B66</color>
+    <color name="signUpTextViewLogInPage">#191919</color>
+    <color name="progressBar_color">#0989FF</color>
+    <color name="progressBarTrackColor">#FFCDD2</color>
+</resources>
