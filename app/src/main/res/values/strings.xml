@@ -321,4 +321,11 @@
     <string name="nav_imp_links"><![CDATA[> Imp Links]]></string>
     <string name="nav_reference_book"><![CDATA[> Reference Book]]></string>
     <string name="nav_practicals"><![CDATA[> Practicals]]></string>
+    <string name="nav_fy"><![CDATA[> FY ]]></string>
+    <string name="nav_sy"><![CDATA[> SY ]]></string>
+    <string name="nav_sem_iii"><![CDATA[> SEM III ]]></string>
+    <string name="nav_sem_i"><![CDATA[> SEM I ]]></string>
+    <string name="nav_sub_1"><![CDATA[> Sub 1 ]]></string>
+    <string name="nav_syllabus"><![CDATA[> Syllabus]]></string>
+    <string name="nav_sub_2"><![CDATA[> Sub 2 ]]></string>
 </resources>

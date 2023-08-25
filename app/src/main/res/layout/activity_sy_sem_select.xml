@@ -40,6 +40,24 @@
 
             </com.google.android.material.appbar.MaterialToolbar>
 
+            <TextView
+                android:id="@+id/navFY"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/rectangle_shape"
+                android:text="@string/nav_sy"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:paddingLeft="10dp"
+                android:fontFamily="@font/koho_bold"
+                android:shadowColor="#003160"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="2"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+
         </com.google.android.material.appbar.AppBarLayout>
 
         <FrameLayout

@@ -68,7 +68,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:background="@drawable/rectangle_shape"
-                android:text="> SEM I"
+                android:text="@string/nav_sem_i"
                 android:gravity="center_vertical"
                 android:textSize="16sp"
                 android:fontFamily="@font/koho_bold"
