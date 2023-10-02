@@ -7,6 +7,7 @@ import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import android.util.Log
+import androidx.appcompat.app.AlertDialog
 import androidx.core.content.ContextCompat
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
@@ -76,7 +77,7 @@ object NavigationDrawerHelper {
                     Toast.makeText(activity, "Successfully logged out", Toast.LENGTH_SHORT).show()
                 }
                 R.id.nav_exit -> {
-                    activity.finishAffinity()
+                    showExitConfirmationDialog(activity)
                 }
             }
 
@@ -102,4 +103,19 @@ object NavigationDrawerHelper {
         fragmentTransaction.replace(R.id.frameLayout, fragment)
         fragmentTransaction.commit()
     }
+
+    private fun showExitConfirmationDialog(activity: AppCompatActivity) {
+        val builder = AlertDialog.Builder(activity)
+        builder.setTitle("Exit Confirmation")
+        builder.setMessage("Are you sure you want to exit the app?")
+        builder.setPositiveButton("Yes") { dialog, which ->
+            activity.finishAffinity() // Exit the app
+        }
+        builder.setNegativeButton("No") { dialog, which ->
+            dialog.dismiss() // Dismiss the dialog and do nothing
+        }
+        val dialog = builder.create()
+        dialog.show()
+    }
+
 }

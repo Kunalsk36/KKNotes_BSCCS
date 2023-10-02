@@ -36,6 +36,13 @@ class SySem3Sub7RefBookCS : AppCompatActivity() {
         val navView: NavigationView = findViewById(R.id.navigationView)
         val toolbar = findViewById<MaterialToolbar>(R.id.topAppBar)
 
+        val navFy = findViewById<TextView>(R.id.navFY)
+        CommonOnClicks(navFy, this, SySemSelect::class.java)
+        val navSem1 = findViewById<TextView>(R.id.navSem1)
+        CommonOnClicks(navSem1, this, SYSem3SubSelect::class.java)
+        val navSem1Sub1 = findViewById<TextView>(R.id.navFYSem1Sub1)
+        CommonOnClicks(navSem1Sub1, this, SySem3Sub7CS::class.java)
+
         NavigationDrawerHelper.setupNavigationDrawer(
             this,
             drawerLayout,

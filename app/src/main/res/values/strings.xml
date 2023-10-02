@@ -328,4 +328,11 @@
     <string name="nav_sub_1"><![CDATA[> Sub 1 ]]></string>
     <string name="nav_syllabus"><![CDATA[> Syllabus]]></string>
     <string name="nav_sub_2"><![CDATA[> Sub 2 ]]></string>
+    <string name="nav_sub_3"><![CDATA[> SUB 3]]></string>
+    <string name="nav_sub_4"><![CDATA[> SUB 4]]></string>
+    <string name="nav_sub_5"><![CDATA[> SUB 5]]></string>
+    <string name="nav_sub_6"><![CDATA[> SUB 6]]></string>
+    <string name="nav_sub_7"><![CDATA[> SUB 7]]></string>
+    <string name="nav_sem_iv"><![CDATA[> SEM IV]]></string>
+    <string name="nav_case_study"><![CDATA[> CASE STUDY REPORT]]></string>
 </resources>

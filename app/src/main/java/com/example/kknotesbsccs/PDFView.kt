@@ -107,8 +107,8 @@ class PDFView : AppCompatActivity() {
             if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 startDownload()
             } else {
-                startDownload()
-                //Toast.makeText(this, "permission denied", Toast.LENGTH_SHORT).show()
+                //startDownload()
+                Toast.makeText(this, "permission denied", Toast.LENGTH_SHORT).show()
             }
         }
     }

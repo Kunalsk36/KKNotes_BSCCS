@@ -35,6 +35,11 @@ class SySem4Sub4CS : AppCompatActivity() {
         val navView: NavigationView = findViewById(R.id.navigationView)
         val toolbar = findViewById<MaterialToolbar>(R.id.topAppBar)
 
+        val navFy = findViewById<TextView>(R.id.navFY)
+        CommonOnClicks(navFy, this, SySemSelect::class.java)
+        val navSem1 = findViewById<TextView>(R.id.navSem1)
+        CommonOnClicks(navSem1, this, SYSem4SubSelect::class.java)
+
         NavigationDrawerHelper.setupNavigationDrawer(
             this,
             drawerLayout,
